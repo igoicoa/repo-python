@@ -4,7 +4,7 @@ try:
 
     cociente = a / b
     print("La division es: ", cociente)
-except Exception:
+except ZeroDivisionError:
     print("Error al realizar la division")
 
 print("Fin del programa")
